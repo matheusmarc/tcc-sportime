@@ -1,0 +1,1803 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SporTime</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/nav_banner.css">
+    <link rel="stylesheet" href="css/esportes.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <link rel="stylesheet" href="css/form.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <link rel="icon" href="img/icon.png">
+
+  </head>
+  <body>
+
+<!-- Barra  -->
+<div class="barras">
+  <div class="barra"></div>
+  <div class="barra2"></div>
+</div>  
+<!-- Fim da Barra  -->
+
+<!-- Navegação Nav -->
+<nav class="navbar navbar-expand-lg navbar-light shadow">
+
+  <div class="container d-flex">
+      <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a class="navbar-brand logo h1" href="index.html" id="logo">
+        <img src="img/logo.png" alt="" width="250px">
+    </a>
+
+      <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex" id="templatemo_main_nav">
+        <div class="navalinhar">
+
+          <div class="flex-fill">
+              <ul class="nav navbar-nav d-flex mx-lg-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#esportes">Pratique o seu Esporte!</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="contato.html">Cadastre a sua quadra!</a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+  </div>
+</nav>
+<!-- Fim da Navegação Nav -->
+
+<!-- Carrossel de imagens -->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+          <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                  <img class="img-fluid" src="img/jogador1.png" alt="">
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                  <div class="text-align-left align-self-center">
+                      <h1 class="h1" id="sportime"><b>SporTime</b></h1>
+                      <p class="pbanner">Um site onde você consegue encontrar a melhor opção para praticar o seu esporte.</p>
+                      <p>
+                          
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="carousel-item">
+      <div class="container">
+          <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                  <img class="img-fluid" src="img/jogador2.png" alt="">
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                  <div class="text-align-left">
+                      <p class="pbanner">Você consegue fazer tudo sem sair de casa!</p>
+                      <h3 class="h2"></h3>
+                      <p>
+                          
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="carousel-item">
+      <div class="container">
+          <div class="row p-5">
+              <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                  <img class="img-fluid" src="img/jogador3.png" alt="">
+              </div>
+              <div class="col-lg-6 mb-0 d-flex align-items-center">
+                  <div class="text-align-left">
+                      <p class="pbanner"> Encontre a quadra mais próxima da sua casa! </p>
+                      <h3 class="h2"></h3>
+                      <p>
+                        
+                      </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Fim do Carrossel de imagens -->
+
+<!-- INICIO ESPORTES -->
+<div id="esportes" class="container-fluid">
+  <main>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-1">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Pratique o seu Esporte</h1>
+          <p class="lead text-muted">Escolha o esporte e local que deseja praticar.</p>
+          
+          <button type="button" id="modalbutton" onclick="mostrarfiltros()" botao="filtro" class="btn mb-1"> <i class="bi bi-filter"></i> Filtro </button>
+
+
+          <div class="filtro">
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" onclick="societyinput()" id="societyinp" checked>
+              <label class="form-check-label" for="societyinp" >Society</label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" onclick="voleiinput()" id="voleiinp" checked>
+              <label class="form-check-label" for="voleiinp" >Vôlei</label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" onclick="futsalinput()" id="futsalinp" checked>
+              <label class="form-check-label" for="futsalinp" >Futsal</label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" onclick="campoinput()" id="campoinp" checked>
+              <label class="form-check-label" for="campoinp" >Futebol de Campo</label>
+            </div>
+            <br>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" onclick="imbinput()" id="imbinp" checked>
+              <label class="form-check-label" for="imbinp" >Imbituba</label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" onclick="grbinput()" id="grbinp" checked>
+              <label class="form-check-label" for="grbinp" >Garopaba</label>
+            </div>
+            <div class="form-check form-switch">
+              <input class="form-check-input" type="checkbox" role="switch" onclick="plinput()" id="plinp" checked>
+              <label class="form-check-label" for="plinp" >Paulo Lopes</label>
+            </div>
+          </div>
+            
+        </div>
+      </div>
+    </section>
+  
+    <!-- pl -paulo lopes -->
+    <!-- grb - garopaba -->
+    <!-- imb - imbituba -->
+
+    <div class="album py-5">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <!-- CARD 1 ARENA SANTO ANTONIO -->
+          <div class="col" tipo="society" priv="privada"cidade="imb" data-bs-toggle="modal" data-bs-target="#santoantonio">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/santoantonio1.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> ASA - Arena Santo Antônio </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Bar">
+                      <img src="img/bar.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                      <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                      <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Vestiário">
+                      <img src="img/vestiario.png" alt="" width="30px" height="30px">
+                    </span>
+                  </div>
+                  <small class="text-muted" id="preco">R$120 a R$150</small>
+                </div>
+                <small class="text-muted city" id="preco">Imbituba - SC</small>
+                <small class="type text-danger" id="preco">Privado</small>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="santoantonio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal" id="logomarca">
+                      <h1>  </h1>
+                      <img src="img/asa.png" alt="" width="150px" height="150px">
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/santoantonio1.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>ASA - Arena Santo Antônio</h5>
+                      <br>
+                      <div class="btn-group">
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Bar">
+                          <img src="img/bar.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                          <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                          <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Vestiário">
+                          <img src="img/vestiario.png" alt="" width="30px" height="30px">
+                        </span>
+                      </div>
+                      <br>
+                      <br>
+                      <h5>R$120 a R$150</h5>
+                      <p><strong>Proprietário:</strong> Darlan Back</p>
+                      <p><strong>Endereço: </strong> Rua Pedro Antônio Gonçalves n387 - Vila Santo Antônio, Imbituba </p>
+                      <p><strong>Horário: </strong>Por agendamento</p>
+                      <p><strong>E-mail:</strong> contato@arenasantoantonio.com.br </p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <!-- <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button> -->
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <a href="https://api.whatsapp.com/send?phone=5548999670290&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20site%20Sportime%2C%20e%20gostaria%20de%20marcar%20um%20hor%C3%A1rio%20em%20sua%20quadra." target="_blank"><button type="button" id="ct1" class="btn mb-1 modalct">Contato</button></a>
+                        
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59575.0236296408!2d-48.70564549816198!3d-28.25411457029616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526b56ad5550081%3A0xd356cf12e4bdad72!2sASA%20Arena%20Santo%20Ant%C3%B4nio!5e0!3m2!1spt-BR!2sbr!4v1667617635587!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <!-- <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div> -->
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 1 ARENA SANTO ANTONIO -->
+
+          <!-- CARD 2 ARENA GATENSE QUADRA 1 -->
+          <div class="col" tipo="society" priv="privada"cidade="imb" data-bs-toggle="modal" data-bs-target="#gatense1">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/quadra1gatense1.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Arena Gatense - Quadra 1 </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Lanchonete">
+                      <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                      <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                      <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Local de Eventos">
+                      <img src="img/localdeeventos.png" alt="" width="30px" height="30px">
+                    </span>
+                  </div>
+                  <small class="text-muted" id="preco">A combinar</small>
+                </div>
+                <small class="text-muted city" id="preco">Imbituba - SC</small>
+                <small class="type text-danger" id="preco">Privado</small>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="gatense1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal" id="logomarca">
+                      <h1>  </h1>
+                      <img src="img/logogatense.png" alt="" width="200px" height="200px" >
+                    </div>
+
+                    <div class="imgmodal">
+                      <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/quadra1gatense1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/quadra1gatense2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/quadra1gatense3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Arena Gatense - Quadra 1</h5>
+                      <br>
+                      <div class="btn-group">
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Lanchonete">
+                          <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                          <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                          <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Local de Eventos">
+                          <img src="img/localdeeventos.png" alt="" width="30px" height="30px">
+                        </span>
+                      </div>
+                      <br>
+                      <br>
+                      <h5>A combinar</h5>
+                      <p><strong>Proprietário:</strong> Sérginho </p>
+                      <p><strong>Endereço: </strong> Rua Ataíde Manoel da Rosa  - Arroio, Imbituba </p>
+                      <p><strong>Horário: </strong>18:30 até 00:00</p>
+                      <p><strong>E-mail:</strong> rafinhafoguinho@gmail.com </p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <!-- <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button> -->
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <a href="https://api.whatsapp.com/send?phone=5549996554317&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20site%20Sportime%2C%20e%20gostaria%20de%20marcar%20um%20hor%C3%A1rio%20em%20sua%20quadra." target="_blank"><button type="button" id="ct1" class="btn mb-1 modalct">Contato</button></a>
+                        
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3517.451476550195!2d-48.68265273431807!3d-28.163182003293542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cb743e916175%3A0x3ede6c0e2e09878!2sArena%20Gatense!5e0!3m2!1spt-BR!2sbr!4v1667960695939!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <!-- <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div> -->
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 2 ARENA GATENSE QUADRA 1-->
+
+          <!-- CARD 3 ARENA GATENSE QUADRA 2 -->
+          <div class="col" tipo="society" priv="privada"cidade="imb" data-bs-toggle="modal" data-bs-target="#gatense2">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/quadra2gatense1.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Arena Gatense - Quadra 2 </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Lanchonete">
+                      <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                      <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                      <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Local de Eventos">
+                      <img src="img/localdeeventos.png" alt="" width="30px" height="30px">
+                    </span>
+                  </div>
+                  <small class="text-muted" id="preco">A combinar</small>
+                </div>
+                <small class="text-muted city" id="preco">Imbituba - SC</small>
+                <small class="type text-danger" id="preco">Privado</small>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="gatense2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal" id="logomarca">
+                      <h1>  </h1>
+                      <img src="img/logogatense.png" alt="" width="200px" height="200px" >
+                    </div>
+
+                    <div class="imgmodal">
+                      <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/quadra2gatense1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/quadra2gatense2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/quadra2gatense3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Arena Gatense - Quadra 2</h5>
+                      <br>
+                      <div class="btn-group">
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Lanchonete">
+                          <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                          <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                          <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Local de Eventos">
+                          <img src="img/localdeeventos.png" alt="" width="30px" height="30px">
+                        </span>
+                      </div>
+                      <br>
+                      <br>
+                      <h5>A combinar</h5>
+                      <p><strong>Proprietário:</strong> Sérginho </p>
+                      <p><strong>Endereço: </strong> Rua Ataíde Manoel da Rosa  - Arroio, Imbituba </p>
+                      <p><strong>Horário: </strong>18:30 até 00:00</p>
+                      <p><strong>E-mail:</strong> rafinhafoguinho@gmail.com </p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <!-- <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button> -->
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <a href="https://api.whatsapp.com/send?phone=5549996554317&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20site%20Sportime%2C%20e%20gostaria%20de%20marcar%20um%20hor%C3%A1rio%20em%20sua%20quadra." target="_blank"><button type="button" id="ct1" class="btn mb-1 modalct">Contato</button></a>
+                        
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3517.451476550195!2d-48.68265273431807!3d-28.163182003293542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cb743e916175%3A0x3ede6c0e2e09878!2sArena%20Gatense!5e0!3m2!1spt-BR!2sbr!4v1667960695939!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <!-- <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div> -->
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 3 ARENA GATENSE QUADRA 2-->
+
+          <!-- CARD 4 Arena Newton Prado Baião  -->
+          <div class="col" tipo="society" priv="privada"cidade="imb" data-bs-toggle="modal" data-bs-target="#newton">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/newton1.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Arena Newton Prado Baião  </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Lanchonete">
+                      <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                      <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                      <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Local de Eventos">
+                      <img src="img/localdeeventos.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Vestiário">
+                      <img src="img/vestiario.png" alt="" width="30px" height="30px">
+                    </span>
+                  </div>
+                  <small class="text-muted" id="preco">R$120 a R$130</small>
+                </div>
+                <small class="text-muted city" id="preco">Imbituba - SC</small>
+                <small class="type text-danger" id="preco">Privado</small>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="newton" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal" id="logomarca">
+                      <h1>  </h1>
+                      <img src="img/logonewton.png" alt="" width="150px" height="150px" >
+                    </div>
+
+                    <div class="imgmodal">
+                      <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/newton1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/newton2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/newton3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Arena Newton Prado Baião </h5>
+                      <br>
+                      <div class="btn-group">
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Lanchonete">
+                          <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                          <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                          <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Local de Eventos">
+                          <img src="img/localdeeventos.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Vestiário">
+                          <img src="img/vestiario.png" alt="" width="30px" height="30px">
+                        </span>
+                      </div>
+                      <br>
+                      <br>
+                      <h5>R$120,00 a R$130,00</h5>
+                      <p><strong>Proprietário:</strong> Rafael Carlos Miranda </p>
+                      <p><strong>Endereço: </strong> Rua alzemiro avelino s/ número  </p>
+                      <p><strong>Horário: </strong>09:00 até 00:00</p>
+                      <p><strong>E-mail:</strong> Rafamianda@gmail.com </p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <!-- <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button> -->
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <a href="https://api.whatsapp.com/send?phone=5548998550647&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20site%20Sportime%2C%20e%20gostaria%20de%20marcar%20um%20hor%C3%A1rio%20em%20sua%20quadra." target="_blank"><button type="button" id="ct1" class="btn mb-1 modalct">Contato</button></a>
+                        
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1757.0101576277484!2d-48.7050123664593!3d-28.26740082041506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526b53ed21b489b%3A0x2d0e78ea37135dfe!2sR.%20Alzemiro%20Avelino%20-%20Porto%20da%20Vila%2C%20Imbituba%20-%20SC%2C%2088780-000!5e0!3m2!1spt-BR!2sbr!4v1667962397209!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <!-- <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div> -->
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 4 Arena Newton Prado Baião -->
+
+          <!-- CARD 5 Arena SUNSET   -->
+          <div class="col" tipo="volei" priv="privada"cidade="imb" data-bs-toggle="modal" data-bs-target="#sunset">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/sunset1.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Arena SUNSET   </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Lanchonete">
+                      <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                      <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                    </span>
+                    <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                      <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                    </span>
+                  </div>
+                  <small class="text-muted" id="preco">R$50</small>
+                </div>
+                <small class="text-muted city" id="preco">Imbituba - SC</small>
+                <small class="type text-danger" id="preco">Privado</small>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="sunset" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal" id="logomarca">
+                      <h1>  </h1>
+                      <!-- <img src="img/logonewton.png" alt="" width="150px" height="150px" > -->
+                    </div>
+
+                    <div class="imgmodal">
+                      <div id="carouselExampleIndicators5" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="img/sunset1.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/sunset2.jpg" class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="img/sunset3.jpg" class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Arena SUNSET </h5>
+                      <br>
+                      <div class="btn-group">
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Lanchonete">
+                          <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Churrasqueira">
+                          <img src="img/churrasqueira.png" alt="" width="30px" height="30px">
+                        </span>
+                        <span class="d-inline-block" tabindex="0" data-bs-toggle="popover" data-bs-placement="top" data-bs-trigger="hover focus" data-bs-content="Estacionamento">
+                          <img src="img/estacionamento.png" alt="" width="30px" height="30px">
+                        </span>
+                      </div>
+                      <br>
+                      <br>
+                      <h5>R$50</h5>
+                      <p><strong>Proprietário:</strong> David </p>
+                      <p><strong>Endereço: </strong> Anexo ao sky zimba paraquedismo  </p>
+                      <p><strong>Horário: </strong>24 horas</p>
+                      <p><strong>E-mail:</strong> davidsinhoreli@gmail.com </p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <!-- <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button> -->
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <a href="https://api.whatsapp.com/send?phone=5551999931717&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20site%20Sportime%2C%20e%20gostaria%20de%20marcar%20um%20hor%C3%A1rio%20em%20sua%20quadra." target="_blank"><button type="button" id="ct1" class="btn mb-1 modalct">Contato</button></a>
+                        
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7034.347588874773!2d-48.68058599068428!3d-28.17162953882405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cb1bf01e56c1%3A0x367df9a8d5942167!2sArena%20Sunset!5e0!3m2!1spt-BR!2sbr!4v1668130521744!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <!-- <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div> -->
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 4 Arena Newton Prado Baião -->
+
+
+
+
+          <!-- CARD 5 Ginásio Municipal de Esportes Paulo Roberto Martins -->
+          <div class="col" tipo="futsal" priv="privada"cidade="imb" data-bs-toggle="modal" data-bs-target="#modal4">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/paulorobertomartins.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Ginásio Municipal de Esportes Paulo Roberto Martins </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <!-- <img src="img/bar.png" alt="" width="30px" height="30px"> -->
+
+                  </div>
+                  <small class="text-muted" id="preco">Gratuito</small>
+                </div>
+                <small class="text-muted city" id="preco">Imbituba - SC</small>
+                <small class="type text-success" id="preco">Público</small>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1> </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/paulorobertomartins.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Ginásio Municipal de Esportes Paulo Roberto Martins</h5>
+                      <br>
+                      <h5>Gratuito</h5>
+                      <!-- <p><strong>Proprietário:</strong> Andressa Marques</p> -->
+                      <p><strong>Endereço: </strong> R. A-6, 803-451 - Balneário Solimar, Itapirubá</p>
+                      <!-- <p><strong>Horário: </strong>Todos os dias: 08:00 - 12:00 / 14:00 - 20:00</p> -->
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <!-- <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button> -->
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <!-- <button type="button" id="ct1" class="btn mb-1 modalct">Contato</button> -->
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <!-- <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div> -->
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14063.829565614195!2d-48.723108060449206!3d-28.208607099999988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cad8e939248b%3A0x7c95c515d0fbe670!2sGin%C3%A1sio%20Municipal%20de%20Esportes%20Paulo%20Roberto%20Martins!5e0!3m2!1spt-BR!2sbr!4v1667780366079!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <!-- <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div> -->
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 5 Ginásio Municipal de Esportes Paulo Roberto Martins -->
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="col" tipo="volei" priv="privada"cidade="grb" data-bs-toggle="modal" data-bs-target="#modal11">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/voleicampoduna.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Quadra de Vôlei </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                  </div>
+                  <small class="text-muted" id="preco">A combinar</small>
+                </div>
+                <small class="text-muted city" id="preco">Garopaba - SC</small>
+                <small class="type text-danger" id="preco">Privado</small>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modal11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1>  </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/voleicampoduna.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Quadra de Vôlei - Campo Duna / Garopaba</h5>
+                      <br>
+                      <h5>A combinar</h5>
+                      <p><strong>Endereço: </strong> Campo D'una, Imbituba - SC, 88780-000</p>
+                      <p><strong>Horário: </strong>Todos os dias: 19:00 - 23:00</p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <a href="https://api.whatsapp.com/send?phone=554899914334&text=Ol%C3%A1%2C%20tudo%20bem%3F%20Vim%20pelo%20site%20Sportime%2C%20e%20gostaria%20de%20marcar%20um%20hor%C3%A1rio%20em%20sua%20quadra." target="_blank"><button type="button" id="ct1" class="btn mb-1 modalct">Contato</button></a>
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39813.43857065688!2d-48.67972761244628!3d-28.114688370384595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cd534990f14b%3A0xb232df0589613ec3!2sfutevolei!5e0!3m2!1spt-BR!2sbr!4v1669336250076!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 11 -->
+
+
+
+
+          <!-- CARD1 -->
+          <div class="col" tipo="society" priv="privada"cidade="grb" data-bs-toggle="modal" data-bs-target="#modal1">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/exmplo.jpg" alt="" height="300px">
+              <div class="card-body">         
+                <h5 class="card-text"> Quadra de Futebol Society - Campo Duna / Garopaba </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <img src="img/restaurante.png" alt="" width="30px" height="30px">
+                    <img src="img/bar.png" alt="" width="30px" height="30px">
+                    <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                  </div>
+                  <small class="text-muted" id="preco">R$10,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1> </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/exmplo.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Quadra de Futebol Society - Campo Duna/Garopaba</h5>
+                      <br>
+                      <h5>R$ 10,00</h5>
+                      <p><strong>Proprietário:</strong> Marcos de Andrade</p>
+                      <p><strong>Endereço: </strong> Servidão Ronei Marcos Evaldt, Garopaba</p>
+                      <p><strong>Horário: </strong>Todos os dias: 08:00 - 12:00 / 14:00 - 20:00</p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button>
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <button type="button" id="ct1" class="btn mb-1 modalct">Contato</button>
+                        
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.431840521784!2d-48.680466984319324!3d-28.10286855065522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cda0c2a3c78b%3A0xfbda6daf81c9311!2sServid%C3%A3o%20Ronei%20Marcos%20Evaldt%2C%20Garopaba%20-%20SC%2C%2088780-000!5e0!3m2!1spt-BR!2sbr!4v1667446181896!5m2!1spt-BR!2sbr" width="90%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 1 -->
+
+        <!-- CARD 3 -->
+          <div class="col" tipo="society" priv="publica"cidade="pl" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/exmplo.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Quadra de Futebol Society - Morro Agudo / Paulo Lopes </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <img src="img/bar.png" alt="" width="30px" height="30px">
+                    <img src="img/fastfood.png" alt="" width="30px" height="30px">
+                  </div>
+                  <small class="text-muted" id="preco">Gratuito</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1>  </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/exmplo.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Quadra de Futebol Society - Morro Agudo / Paulo Lopes</h5>
+                      <br>
+                      <h5>Gratuito</h5>
+                      <p><strong>Proprietário:</strong> Mara Marcelino</p>
+                      <p><strong>Endereço: </strong> Estrada Geral Morro Agudo, Paulo Lopes</p>
+                      <p><strong>Horário: </strong>Todos os dias: 08:00 - 12:00 / 14:00 - 20:00</p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button>
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <button type="button" id="ct1" class="btn mb-1 modalct">Contato</button>
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3523.048366570414!2d-48.683605899999996!3d-27.9924166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526d48fa23c706f%3A0x1fe4e75c1aa52ae8!2sEstr.%20Geral%20Morro%20Agudo%2C%20Paulo%20Lopes%20-%20SC%2C%2088490-000!5e0!3m2!1spt-BR!2sbr!4v1667536064528!5m2!1spt-BR!2sbr" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 3 -->
+
+
+          <!-- CARD 5 -->
+          <div class="col" tipo="volei" priv="privada"cidade="pl" data-bs-toggle="modal" data-bs-target="#modal5">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/exmplo.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Quadra de Vôlei - Morro Agudo / Paulo Lopes </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <img src="img/restaurante.png" alt="" width="30px" height="30px">
+                    <img src="img/bar.png" alt="" width="30px" height="30px">
+                    <img src="img/fastfood.png" alt="" width="30px" height="30px">
+
+                  </div>
+                  <small class="text-muted" id="preco">R$15,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1>  </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/exmplo.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Quadra de Vôlei - Morro Agudo / Paulo Lopes</h5>
+                      <br>
+                      <h5>R$ 15,00</h5>
+                      <p><strong>Proprietário:</strong> lucas da Rosa</p>
+                      <p><strong>Endereço: </strong> R. Santa Catarina, 164-284, Paulo Lopes</p>
+                      <p><strong>Horário: </strong>Todos os dias: 08:00 - 12:00 / 14:00 - 20:00</p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button>
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <button type="button" id="ct1" class="btn mb-1 modalct">Contato</button>
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.431840521784!2d-48.680466984319324!3d-28.10286855065522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cda0c2a3c78b%3A0xfbda6daf81c9311!2sServid%C3%A3o%20Ronei%20Marcos%20Evaldt%2C%20Garopaba%20-%20SC%2C%2088780-000!5e0!3m2!1spt-BR!2sbr!4v1667446181896!5m2!1spt-BR!2sbr" width="90%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 5 -->
+
+          <!-- CARD 6 -->
+          <div class="col" tipo="futsal" priv="privada"cidade="pl" data-bs-toggle="modal" data-bs-target="#modal6">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/exmplo.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Quadra de Futsal - Morro Agudo / Paulo Lopes </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <img src="img/restaurante.png" alt="" width="30px" height="30px">
+                    <img src="img/bar.png" alt="" width="30px" height="30px">
+                    <img src="img/fastfood.png" alt="" width="30px" height="30px">
+
+                  </div>
+                  <small class="text-muted" id="preco">R$20,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1>  </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/exmplo.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Quadra de Futsal - Morro Agudo / Paulo Lopes</h5>
+                      <br>
+                      <h5>R$ 20,00</h5>
+                      <p><strong>Proprietário:</strong> Matheus Marcelino</p>
+                      <p><strong>Endereço: </strong> Rod. Gov. Mário Covas, 1111, Paulo Lopes</p>
+                      <p><strong>Horário: </strong>Todos os dias: 08:00 - 12:00 / 14:00 - 20:00</p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button>
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <button type="button" id="ct1" class="btn mb-1 modalct">Contato</button>
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.431840521784!2d-48.680466984319324!3d-28.10286855065522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cda0c2a3c78b%3A0xfbda6daf81c9311!2sServid%C3%A3o%20Ronei%20Marcos%20Evaldt%2C%20Garopaba%20-%20SC%2C%2088780-000!5e0!3m2!1spt-BR!2sbr!4v1667446181896!5m2!1spt-BR!2sbr" width="90%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 6 -->
+
+          <!-- CARD 7 -->
+          <div class="col" tipo="campo" priv="privada"cidade="pl" data-bs-toggle="modal" data-bs-target="#modal7">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/exmplo.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Futebol de Campo - Morro Agudo / Paulo Lopes </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <img src="img/restaurante.png" alt="" width="30px" height="30px">
+
+                  </div>
+                  <small class="text-muted" id="preco">R$15,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1>  </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/exmplo.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Futebol de Campo - Morro Agudo / Paulo Lopes</h5>
+                      <br>
+                      <h5>R$ 15,00</h5>
+                      <p><strong>Proprietário:</strong> André Lucas</p>
+                      <p><strong>Endereço: </strong> Rod. Gov. Mário Covas, 1111, Paulo Lopes</p>
+                      <p><strong>Horário: </strong>Todos os dias: 08:00 - 12:00 / 14:00 - 20:00</p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button>
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <button type="button" id="ct1" class="btn mb-1 modalct">Contato</button>
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.431840521784!2d-48.680466984319324!3d-28.10286855065522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cda0c2a3c78b%3A0xfbda6daf81c9311!2sServid%C3%A3o%20Ronei%20Marcos%20Evaldt%2C%20Garopaba%20-%20SC%2C%2088780-000!5e0!3m2!1spt-BR!2sbr!4v1667446181896!5m2!1spt-BR!2sbr" width="90%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 7 -->
+
+          <!-- CARD 8 -->
+          <div class="col" tipo="campo" priv="publica"cidade="imb" data-bs-toggle="modal" data-bs-target="#modal8">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/exmplo.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Futebol de Campo - Arroio / Imbituba </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <img src="img/bar.png" alt="" width="30px" height="30px">
+                    <img src="img/fastfood.png" alt="" width="30px" height="30px">
+
+                  </div>
+                  <small class="text-muted" id="preco">Gratuito</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modal8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1>  </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/exmplo.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Futebol de Campo - Arroio / Imbituba</h5>
+                      <br>
+                      <h5>Gratuito</h5>
+                      <p><strong>Proprietário:</strong> Rodrigo Gafforelli</p>
+                      <p><strong>Endereço: </strong> Rua Vereador Venicio Luiz Borges, 25 - Arroio, Imbituba</p>
+                      <p><strong>Horário: </strong>Todos os dias: 08:00 - 12:00 / 14:00 - 20:00</p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button>
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <button type="button" id="ct1" class="btn mb-1 modalct">Contato</button>
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.431840521784!2d-48.680466984319324!3d-28.10286855065522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cda0c2a3c78b%3A0xfbda6daf81c9311!2sServid%C3%A3o%20Ronei%20Marcos%20Evaldt%2C%20Garopaba%20-%20SC%2C%2088780-000!5e0!3m2!1spt-BR!2sbr!4v1667446181896!5m2!1spt-BR!2sbr" width="90%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 8 -->
+
+          <!-- CARD 10 -->
+          <div class="col" tipo="futsal" priv="privada"cidade="grb" data-bs-toggle="modal" data-bs-target="#modal10">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/exmplo.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Quadra de Futsal - Pinguirito / Garopaba </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <img src="img/bar.png" alt="" width="30px" height="30px">
+                    <img src="img/fastfood.png" alt="" width="30px" height="30px">
+
+                  </div>
+                  <small class="text-muted" id="preco">R$15,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modal10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1>  </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/exmplo.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Quadra de Futsal - Pinguirito / Garopaba</h5>
+                      <br>
+                      <h5>R$ 15,00</h5>
+                      <p><strong>Proprietário:</strong> João Paulo</p>
+                      <p><strong>Endereço: </strong> GRP-020, Garopaba</p>
+                      <p><strong>Horário: </strong>Todos os dias: 08:00 - 12:00 / 14:00 - 20:00</p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button>
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <button type="button" id="ct1" class="btn mb-1 modalct">Contato</button>
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.431840521784!2d-48.680466984319324!3d-28.10286855065522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cda0c2a3c78b%3A0xfbda6daf81c9311!2sServid%C3%A3o%20Ronei%20Marcos%20Evaldt%2C%20Garopaba%20-%20SC%2C%2088780-000!5e0!3m2!1spt-BR!2sbr!4v1667446181896!5m2!1spt-BR!2sbr" width="90%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD10 -->
+
+
+          
+
+          <!-- CARD 12 -->
+          <div class="col" tipo="campo" priv="privada"cidade="grb" data-bs-toggle="modal" data-bs-target="#modal12">
+            <div class="card shadow-sm">
+              <img class="thumb" src="img/exmplo.jpg" alt="" height="300px">
+  
+              <div class="card-body">
+                <h5 class="card-text"> Campo de Futebol - Siriú / Garopaba </h5>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <img src="img/bar.png" alt="" width="30px" height="30px">
+                    <img src="img/fastfood.png" alt="" width="30px" height="30px">
+
+                  </div>
+                  <small class="text-muted" id="preco">R$10,00</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+          <div class="modal fade" id="modal12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  
+                  <div class="corpomodal" id="corpomodal">
+
+                    <div class="title-modal">
+                      <h1>  </h1>
+                    </div>
+
+                    <div class="imgmodal">
+                      <img class="imagemodal" src="img/exmplo.jpg" alt="">
+                    </div>
+
+                    <div class="textomodal">
+                      <br>
+                      <h5>Campo de Futebol - Siriú / Garopaba</h5>
+                      <br>
+                      <h5>R$ 10,00</h5>
+                      <p><strong>Proprietário:</strong> Marcos de Andrade</p>
+                      <p><strong>Endereço: </strong> Servidão Ronei Marcos Evaldt, Garopaba</p>
+                      <p><strong>Horário: </strong>Todos os dias: 08:00 - 12:00 / 14:00 - 20:00</p>
+                    </div>
+                  
+                    
+                      <div class="modalbotoes">
+                        <button type="button" id="ag1" class="btn mb-1 modalag">Agenda</button>
+                        <button type="button" id="mp1" class="btn mb-1 modalmp">Localização</button>
+                        <button type="button" id="ct1" class="btn mb-1 modalct">Contato</button>
+                      </div>
+                  </div>
+
+                  <br>
+
+                  <div class="corpoagenda" id="agenda">
+                    <iframe class="agenda" src="https://calendar.google.com/calendar/embed?src=c_ce2a1431e97d4dd977800e5040e4a4672fe60738f94756e0067227d2e0a082c7%40group.calendar.google.com&ctz=America%2FSao_Paulo" width="90%" height="600" frameborder="0" scrolling="no"></iframe>
+                  </div>
+
+                  <div class="corpomaps" id="maps">
+                    <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.431840521784!2d-48.680466984319324!3d-28.10286855065522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9526cda0c2a3c78b%3A0xfbda6daf81c9311!2sServid%C3%A3o%20Ronei%20Marcos%20Evaldt%2C%20Garopaba%20-%20SC%2C%2088780-000!5e0!3m2!1spt-BR!2sbr!4v1667446181896!5m2!1spt-BR!2sbr" width="90%" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  </div>
+
+                    <div class="marcas">
+                      <img class="patrocinio" src="img/patrocinio.png" alt="">
+                    </div>
+
+
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim modal -->
+          <!-- FIM CARD 12 -->
+
+
+      </div>
+    </div>
+  
+  </main>
+</div>
+</div>
+</div>
+<!-- FIM ESPORTES -->
+
+
+
+<div class="logocolorir">
+
+  <div class="divlogo">
+    <img id="logotipo" src="img/logo.png" alt="">
+  </div>
+
+</div>
+
+
+
+<!--  INICIO FOOTER -->
+  <footer
+          class="text-center text-lg-start text-white"
+          style="background-color: rgb(38, 46, 53)"
+          >
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-3"
+             style="background-color:  rgb(0, 136, 0)"
+             >
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold" id="textofooter">SporTime</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color:  rgb(0, 136, 0); height: 2px"
+                />
+            <p>
+              Entre em contato para cadastrar o seu local.
+            </p>
+            <p class="ifsc">
+              <img class="ifsc" src="img/local.png" alt="" width="20px" height="20px">
+              Instituto Federal Santa Catarina - Campus Garopaba
+            </p>
+            <p class="tel">
+              <img src="img/telefone.png" alt="" width="20px" height="20px">
+              +55 (48) 99694-5629
+            </p>
+            <p class="mail">
+              <img src="img/email.png" alt="" width="20px" height="20px">
+              contato.equipesportime@gmail.com
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold" id="textofooter">Equipe</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: rgb(0, 136, 0); height: 2px"
+                />
+            <p class="part"> <a id="github" href="https://github.com/sergiofags" target="_blank"> Sérgio Fagundes </a> </p>
+            <p class="part"> <a id="github" href="https://github.com/matheusmarc" target="_blank"> Matheus Marcelino </a> </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold" id="textofooter">Sobre</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color:  rgb(0, 136, 0); height: 2px"
+                />
+            <p>
+              Projeto Integrador II
+            </p>
+            <p>
+              Técnico em Informática 
+            </p>
+            <p>
+              Turma 2020
+            </p>
+            <p>
+              
+            </p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2022 SporTime
+    </div>
+    <!-- Copyright -->
+  </footer>
+<!-- FIM FOOTER -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="js/filtros.js"></script>
+<script src="js/agenda_maps.js"></script>
+<script src="js/popover.js"></script>
+<script
+  src="https://code.jquery.com/jquery-3.6.1.js"
+  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+  crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,0 +1,115 @@
+.album{
+    background-color: #d6ddea;
+}
+
+a{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.card{
+    transition: all .3s ease-in-out;
+    border-radius: 20px;
+}
+
+#preco{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#esporte{
+    background-color: rgb(0, 136, 0);
+    color: white;
+}
+
+#esporte:hover{
+    background-color: rgb(0, 109, 0);
+}
+
+.logocolorir{
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #d6ddea;
+}
+
+.divlogo{
+    filter: saturate(0);
+    transition: 0.4s;
+    width: 620px;
+    margin: auto;
+}
+
+.divlogo:hover{
+    filter: saturate(1);
+    transition: 0.4s;
+    
+}
+
+.card-body{
+    height: 140px;
+}
+
+a{
+    padding: 0;
+    margin: 0;
+}
+
+
+.type{
+    font-weight: bold;
+    float: right;
+}
+
+
+@media screen and (max-width: 626px){
+    .logocolorir{
+        width: 100%;
+    }
+
+    .divlogo{
+        width: 100%;
+    }
+
+    #logotipo{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .card-body{
+        height: 160px;
+    }
+
+    .thumb{
+        height: 250px;
+    }
+}  
+
+@media screen and (max-width: 575px){
+    .card-body{
+        height: 185px;
+    }
+
+    .col{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 25px;
+    }
+}  
+
+@media screen and (max-width: 1199px){
+    .card-body{
+        height: 185px;
+    }
+}  
